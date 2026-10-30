@@ -8,10 +8,14 @@ To write a program to predict the price of the house and number of occupants in 
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. 
-2. 
-3. 
-4. 
+1. Import the required libraries such as NumPy, Pandas, Matplotlib, and the SGDRegressor model from Scikit-learn.
+
+2. Load and preprocess the dataset by separating the input features (independent variables) and the target variables (house price and number of occupants). Split the dataset into training and testing sets.
+   
+3. Train the model by creating separate SGDRegressor models for each target variable (house price and number of occupants) and fit them using the training data.
+
+4. Predict and evaluate the results using the testing data, compare the predicted values with the actual values, and calculate performance metrics such as Mean Squared Error (MSE) and R² Score. 
+
 
 ## Program:
 ```
@@ -102,7 +106,35 @@ for i in range(5):
 ```
 
 ## Output:
-![multivariate linear regression model for predicting the price of the house and number of occupants in the house](sam.png)
+## 2.Load dataset and select features/targets:
+
+<img width="485" height="70" alt="image" src="https://github.com/user-attachments/assets/6580629c-ce5d-48ab-9d12-d87ce3c419eb" />
+
+## 3.Train/test split:
+
+<img width="263" height="47" alt="image" src="https://github.com/user-attachments/assets/fab5d7e1-ad2c-4cfe-8c4d-e4cf42dadb29" />
+
+## 4.Feature scaling:
+
+<img width="547" height="42" alt="image" src="https://github.com/user-attachments/assets/d60e8e9b-3b47-4905-866b-4eb06f1bdf32" />
+
+## 5.Initialize and train the model:
+
+<img width="217" height="140" alt="image" src="https://github.com/user-attachments/assets/ee06d96d-286c-49f4-b6f0-1b97eda06a37" />
+
+## 6.Predict and inverse-transform:
+
+<img width="296" height="102" alt="image" src="https://github.com/user-attachments/assets/08e7bdd0-e913-4703-932f-923e46246e58" />
+
+## 7.Evaluate model performance:
+
+<img width="371" height="43" alt="image" src="https://github.com/user-attachments/assets/ad7fc3a7-8bd0-48e9-9156-b5ab2faef751" />
+## 8.Sample predictions vs true values:
+
+<img width="421" height="372" alt="image" src="https://github.com/user-attachments/assets/806fe231-63bc-4305-a4e3-11c05ba99ca3" />
+
+<img width="287" height="37" alt="image" src="https://github.com/user-attachments/assets/2728f01d-05f9-418a-bf6d-5a02376b3967" />
+
 
 
 ## Result:
